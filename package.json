@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/eMonk42/parcel-boilerplate.git",
+  "author": "Lukas Dendtel <l.dendtel@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve -p 8081 pages/index.html --no-cache"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-beta.2"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
